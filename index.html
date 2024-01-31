@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+   
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <h1>Davi Silva</h1>
+    <div class="calculadora">
+        <h2>Calculadoa</h2>
+        <p class="display"></p>
+        <button class="gray-button" onclick="clean()">AC</button>
+        <button class="gray-button" onclick="invertsignal()">+/-</button>
+        <button class="orange-button" onclick="insert('/')">/</button>
+        <button class="orange-button" onclick="insert('*')">*</button>
+        <button class="black-button" onclick="insert('7')">7</button>
+        <button class="black-button" onclick="insert('8')">8</button>
+        <button class="black-button" onclick="insert('9')">9</button>
+        <button class="orange-button" onclick="insert('-')">-</button>
+        <button class="black-button" onclick="insert('4')">4</button>
+        <button class="black-button" onclick="insert('5')">5</button>
+        <button class="black-button" onclick="insert('6')">6</button>
+        <button class="orange-button" onclick="insert('+')">+</button>
+        <button class="black-button" onclick="insert('1')">1</button>
+        <button class="black-button" onclick="insert('2')">2</button>
+        <button class="black-button" onclick="insert('3')">3</button>
+        <button class="equal-button" onclick="calcular('=')">=</button>
+        <button class="black-button zero" onclick="insert('0')">0</button>
+        <button class="black-button" onclick="insert('.')">.</button>
+    </div>
+</body>
+
+    <script src="./script.js"></script>
+</html>
