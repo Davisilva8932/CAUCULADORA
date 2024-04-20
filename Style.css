@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: brown;
+    background: url("https://source.unsplash.com/1600x980/?landscape");
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -33,12 +33,12 @@ h2 {
 }
 
 p {
-    background-color: #fff;
-    font-size: 25px;
+    
+    font-size: 35px;
     grid-column: 1 / 5;
     grid-row:   2 / 3;
     text-align: right;
-    color: black;
+    color:#fff;
     margin-bottom: 20px;
     padding: 5px;
 }
@@ -48,6 +48,7 @@ button {
     border-radius: 20px;
     cursor: pointer;
     margin: 5px;
+    border: none;
    
 }
 
